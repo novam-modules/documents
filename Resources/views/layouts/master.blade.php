@@ -2,7 +2,7 @@
 @section('head')
     @parent
     @yield('styles')
-    {{-- <link rel="stylesheet" href="{{ mix('css/documents.css') }}"> --}}
+    <link rel="stylesheet" href="{{ mix('css/documents.css') }}">
 @endsection
 
 @section('layout')
@@ -14,5 +14,5 @@
 @section('footer-js')
     @parent
     @yield('scripts')
-    {{-- <script src="{{ mix('js/documents.js') }}"></script> --}}
+    <script src="{{ mix('js/documents.js') }}"></script>
 @endsection
