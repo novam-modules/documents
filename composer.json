@@ -1,0 +1,25 @@
+{
+    "name": "ham-ips/documents",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Documents\\Providers\\DocumentsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Documents\\": ""
+        }
+    }
+}
